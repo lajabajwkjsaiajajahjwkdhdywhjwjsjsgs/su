@@ -128,9 +128,9 @@ async def helper_cb(client, CallbackQuery, _):
 
 # -------------------- Shiv Menu --------------------
 Shiv_Text = (
-    "**ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴧᴛᴇɢᴏʀʏ ꜰᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴧɴɴᴧ ɢᴇᴛ ʜᴇʟᴩ.**\n"
-    "**ᴧsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴧᴛ** <a href={0}>**sᴜᴘᴘᴏʀᴛ ᴄʜᴧᴛ**</a>\n\n"
-    "**ᴧʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴧɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:** <code>/</code>"
+    "ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴧᴛᴇɢᴏʀʏ ꜰᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴧɴɴᴧ ɢᴇᴛ ʜᴇʟᴩ.\n"
+    "ᴧsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴧᴛ <a href={0}>sᴜᴘᴘᴏʀᴛ ᴄʜᴧᴛ</a>\n\n"
+    "ᴧʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴧɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: <code>/</code>"
 )
 
 @app.on_callback_query(filters.regex("shivXaarumi") & ~BANNED_USERS)
