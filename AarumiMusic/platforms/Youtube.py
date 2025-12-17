@@ -20,7 +20,7 @@ from AarumiMusic.utils.database import is_on_off
 from AarumiMusic.utils.formatters import time_to_seconds
 
 YTPROXY = "https://tgapi.xbitcode.com"
-YT_API_KEY = "xbit_yOlvm7t6_D8bR-3EOHCe7XFR8IhouwTg"
+YT_API_KEY = "xbit_OUSyPQed15gE4m0MmpXTwBKH5XUha-8S"
 
 logger = LOGGER(__name__)
 
